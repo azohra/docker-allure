@@ -4,6 +4,7 @@ MAINTAINER Justin Commu
 RUN mkdir /allure
 RUN mkdir /allure-results
 RUN mkdir /allure-report
+RUN mkdir /allure-config
 
 RUN apk update && \
 	apk add ca-certificates && \
@@ -15,6 +16,6 @@ RUN wget https://github.com/allure-framework/allure-core/releases/download/allur
 RUN unzip allure-commandline.zip -d /allure
 RUN rm allure-commandline.zip
 ENV PATH="/allure/bin:${PATH}"
-
+ENV ALLURE_CONFIG="/allure-config/allure.properties"
 
 
