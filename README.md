@@ -1,10 +1,10 @@
-              |  Docker Allure
---------------------------|------------------------------------------------------------
-:sparkles: | Use Allure with a single command and keep your system clean
-:wrench: |  Built with Alpine Linux so the whole image is only **76mb!**
-:computer: | Reports are shared back to your local filesystem
-:octocat: | Supports custom allure.properties files
-:rocket: | Use your favourite OS/CI without worrying about dependancies
+|               | Docker Allure |
+|---------------|       :---   |
+|:sparkles:|Use Allure with a single command and keep your system clean|
+|:wrench: |  Built with Alpine Linux so the whole image is only **76mb!**|
+|:computer: | Reports are shared back to your local filesystem|
+|:octocat: | Supports custom allure.properties files|
+|:rocket: | Use your favourite OS/CI without worrying about dependancies|
 
 ### Commands
 
